@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tanmay's Website</title>
+        <link rel="stylesheet" href="static/style.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/@fontsource/dancing-script/index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/tanmayweblogo.jpg" type="image/x-icon">
+    </head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-title">Tanmay's Website</a>
+        <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
+        <ul id="navbar-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+        </ul>
+    </nav>
+
+    <header class="banner">
+        <h1>Tanmay Sangam</h1>
+        <p>Project Management Intern @ Rinima Insights | CS B.S. @ GITAM | Content Writer & SEO Operator @ Yo! Vizag</p>
+        <div class="logo-container">
+            <img src="assets/image1.png" loading="lazy" alt="Experience 1" class="header-logo" onclick="document.getElementById('experience').scrollIntoView();">
+            <img src="assets/image2.png" loading="lazy" alt="University Logo" class="header-logo" onclick="document.getElementById('education').scrollIntoView();">
+            <img src="assets/image3.jpg" loading="lazy" alt="Skill" class="header-logo" onclick="document.getElementById('rinima-insights').scrollIntoView();">
+            <img src="assets/image4.png" loading="lazy" alt="LinkedIn" class="header-logo" onclick="window.open('http://linkedin.com/in/tanmay-sangam-1792a8198', '_blank')">
+            <img src="assets/image5.jpg" loading="lazy" alt="Hobby" class="header-logo" onclick="document.getElementById('isro').scrollIntoView();">
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="card about-section">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>I am a driven and enthusiastic aspiring project manager with a strong technical background and a natural talent for bringing teams and ideas together. My experience spans coordinating diverse teams, managing stakeholder expectations, and delivering projects with a focus on collaboration and efficiency. I have a passion for exploring emerging technologies, particularly blockchain, and developing innovative solutions that create meaningful impact. I am eager to continue honing my skills through hands-on experience in dynamic environments, where I can contribute to achieving strategic goals.</p>
+            </div>
+            <div class="profile-container">
+                <img src="assets/tanmay1.png"loading="lazy" alt="About Image" class="profile-pic">
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <h2>Education</h2>
+            <div class="dynamic-card education-box">
+                <div class="education-info">
+                    <p><strong>Masters in Project Management (Concentration: Leading and Managing Technical Projects)</strong></p>
+                    <p>Northeastern University, Boston MA (2024-2026)</p>
+                </div>
+                <div class="banana-slug">
+                    <img src="assets/image2.png"loading="lazy" alt="Northeastern University Logo" class="slug-img">
+                </div>
+            </div>
+            <div class="dynamic-card education-box">
+                <div class="education-info">
+                    <p><strong>B. Tech in Computer Science & Business Systems</strong></p>
+                    <p>GITAM University, Vizag (2019-2023)</p>
+                </div>
+                <div class="banana-slug">
+                    <img src="assets/gitam_logo.jpg"loading="lazy" alt="GITAM University Logo" class="slug-img">
+                </div>
+            </div>
+            <div class="dynamic-card education-box">
+                <div class="education-info">
+                    <p><strong>Senior year (CBSE)</strong></p>
+                    <p>Narayana Junior College (2017-2019)</p>
+                </div>
+                <div class="banana-slug">
+                    <img src="assets/narayana_logo.png"loading="lazy" alt="Narayana Junior College Logo" class="slug-img">
+                </div>
+            </div>
+            <h2>Relevant Certifications</h2>
+            <div class="dynamic-card">
+                <ul class="certifications-list">
+                    <li>How to create a Jira SCRUM project</li>
+                    <li>Introduction to Marketing</li>
+                    <li>Preparing to Manage Human Resources (University of Minnesota)</li>
+                    <li>Introduction to Public Speaking (University of Washington)</li>
+                    <li>AI, Business & the Future of Work (Lund University)</li>
+                    <li>Design Thinking for Innovation (University of Virginia)</li>
+                    <li>Introduction to Psychology (Yale University)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <h2 class="skills-header">Core Competencies</h2>
+            <div class="skills-text">
+                <div class="dynamic-card skills-content">
+                    <p><strong>Project Management:</strong> Agile, Scrum, Risk Management, Stakeholder Engagement</p>
+                    <div class="image-row">
+                        <img src="assets/agile.jpg"loading="lazy" alt="Agile Icon" class="hover-image">
+                        <img src="assets/scrum.png"loading="lazy" alt="Scrum Icon" class="hover-image">
+                        <img src="assets/risk_management.png"loading="lazy" alt="Risk Management Icon" class="hover-image">
+                    </div>
+                </div>
+                <div class="dynamic-card skills-contenst">
+                    <p><strong>Product Development:</strong> Market Research, Roadmap Planning, User-Centered Design</p>
+                    <div class="image-row">
+                        <img src="assets/market_research.jpg"loading="lazy" alt="Market Research Icon" class="hover-image">
+                        <img src="assets/roadmap_planning.png"loading="lazy" alt="Roadmap Planning Icon" class="hover-image">
+                        <img src="assets/usercentereddesign.jpg"loading="lazy" alt="User-Centered Design Icon" class="hover-image">
+                    </div>
+                </div>
+                <div class="dynamic-card skills-content">
+                    <p><strong>Team Leadership:</strong> Collaboration, Communication, Task Delegation</p>
+                    <div class="image-row">
+                        <img src="assets/collaboration.jpg"loading="lazy" alt="Collaboration Icon" class="hover-image">
+                        <img src="assets/communication.jpg"loading="lazy" alt="Communication Icon" class="hover-image">
+                        <img src="assets/task_delegation.jpg"loading="lazy" alt="Task Delegation Icon" class="hover-image">
+                    </div>
+                </div>
+                <div class="dynamic-card skills-content">
+                    <p><strong>Technical Skills:</strong> MySQL, Blockchain Basics (Ganache, MetaMask), Web Development</p>
+                    <div class="image-row">
+                        <img src="assets/mysql.png" loading="lazy" alt="MySQL Icon" class="hover-image">
+                        <img src="assets/blockchain.png" loading="lazy" alt="Blockchain Icon" class="hover-image">
+                        <img src="assets/webdevelopment.png" loading="lazy" alt="Web Development Icon" class="hover-image">
+                    </div>
+                </div>
+                <div class="dynamic-card skills-content">
+                    <p><strong>Tools & Software:</strong> Microsoft Excel, PowerPoint, Jira, Git, Microsoft Project, Asana</p>
+                    <div class="image-row">
+                        <img src="assets/excel.png" loading="lazy" alt="Excel Icon" class="hover-image">
+                        <img src="assets/jira.png" loading="lazy" alt="Jira Icon" class="hover-image">
+                        <img src="assets/git.png" loading="lazy" alt="Git Icon" class="hover-image">
+                    </div>
+                </div>
+                <div class="dynamic-card skills-content">
+                    <p><strong>Content & SEO:</strong> SEO Optimization, Blog Writing, Content Strategy, Technical Writing & Documentation</p>
+                    <div class="image-row">
+                        <img src="assets/seo.jpg" loading="lazy" alt="SEO Icon" class="hover-image">
+                        <img src="assets/bog.png" loading="lazy" alt="Blog Writing Icon" class="hover-image">
+                        <img src="assets/technicalwriter.jpg" loading="lazy" alt="Technical Writing Icon" class="hover-image">
+                    </div>
+                </div>
+                </section>
+                <section id="experience" class="card">
+                    <h2>Experience</h2>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3>Content Writer & SEO Operator, Yo! Vizag</h3>
+                            <p>December 2023 – January 2024</p>
+                            <ul>
+                                <li>Managed the content pipeline by coordinating with the editorial team to ensure timely delivery of SEO-optimized content.</li>
+                                <li>Collaborated with stakeholders across departments to align content goals with business objectives, enhancing the platform’s visibility.</li>
+                                <li>Prioritized tasks and delegated work efficiently across a small team, demonstrating strong time management.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-image">
+                            <img src="assets/yo_vizag.png" loading="lazy" alt="Yo! Vizag" class="experience-pic">
+                        </div>
+                    </div>
+                    <!-- Add more experience entries as needed -->
+                </section>
+                <section id="projects" class="card">
+                    <h2>Internships & Projects</h2>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3 id="rinima-insights">Project Management Intern (HR and Industrial Organizational Psychology)</h3>
+                            <p>Rinima Insights | May 2023 – October 2023</p>
+                            <ul>
+                                <li>Worked closely with senior managers to design and implement employee engagement programs.</li>
+                                <li>Managed multiple projects simultaneously, tracking timelines and coordinating with stakeholders.</li>
+                                <li>Increased employee satisfaction through targeted initiatives based on employee feedback.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3>Product Development Lead – Reverse Water Bottle Vending Machine</h3>
+                            <p>GITAM University, India | Dec 2022 – Feb 2023</p>
+                            <ul>
+                                <li>Led a team to develop a prototype integrating blockchain incentives for sustainable recycling.</li>
+                                <li>Managed the product lifecycle from ideation to prototype delivery, including task assignment and risk management.</li>
+                                <li>Coordinated with technical and design teams to align project goals, ensuring timely delivery.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3>Digital Asset Marketplace – Team Lead</h3>
+                            <p>GITAM University | Nov 2022 – Mar 2023</p>
+                            <ul>
+                                <li>Managed the end-to-end development of a blockchain-based digital asset marketplace.</li>
+                                <li>Collaborated with developers to identify project risks and develop contingency plans.</li>
+                                <li>Ensured clear communication between technical and non-technical team members to facilitate smooth delivery.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3 id="isro">Security Systems Internship</h3>
+                            <p>ISRO, Sriharikota | May 2022 – June 2022</p>
+                            <ul>
+                                <li>Contributed to project reporting and compliance tracking for mission-critical security operations.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3>Website Development Internship</h3>
+                            <p>Fouses, Patna | Sept 2020 – Oct 2020</p>
+                            <ul>
+                                <li>Managed project milestones, coordinating with stakeholders to ensure a timely website launch.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dynamic-card experience-box">
+                        <div class="experience-text">
+                            <h3>Travel Website Development – Team Lead</h3>
+                            <p>GITAM University | Jan 2023 – Apr 2023</p>
+                            <ul>
+                                <li>Led a team of developers to create a comprehensive travel website featuring destination guides, booking options, and user reviews.</li>
+                                <li>Implemented a user-friendly interface and integrated various APIs for real-time data on flights, hotels, and local attractions.</li>
+                                <li>Conducted user testing and gathered feedback to continuously improve the website's functionality and user experience.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="hobbies" class="card">
+                    <h2>Hobbies</h2>
+                    <div class="dynamic-card hobbies-content">
+                        <div class="hobbies-text">
+                            <p>I am passionate about trekking, poetry writing, and working for NGOs. Trekking allows me to explore the beauty of nature, challenge myself physically, and find peace in the great outdoors. Poetry writing is my creative outlet, where I express my thoughts and emotions through words, crafting verses that resonate with readers. My work with NGOs is deeply fulfilling, as it gives me the opportunity to contribute to meaningful causes, support communities in need, and make a positive impact on society.</p>
+                        </div>
+                        <div class="hobbies-images">
+                            <img src="assets/trekking.png" loading="lazy" alt="Trekking" class="hobby-image">
+                            <img src="assets/NGO_works.png" loading="lazy" alt="NGO Work" class="hobby-image">
+                            <img src="assets/poetry_writing.png" loading="lazy" alt="Poetry Writing" class="hobby-image">
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="achievements" class="card">
+                    <h2>Achievements</h2>
+                    <div class="dynamic-card">
+                        <ul class="achievements-list">
+                            <li>Graduate Student Government Member, Northeastern University</li>
+                            <li>Web Content Writer, Boston Startup Org</li>
+                            <li>Adobe Student Ambassador 2024</li>
+                            <li>Published Author</li>
+                            <li>Technical & Projects Lead, GUSAC, Vizag</li>
+                            <li>President, GITAM Writers Club, India</li>
+                            <li>Campus Ambassador, TEDx GITAM, India</li>
+                            <li>Content Team Lead, GITAM Podcast</li>
+                            <li>Conquered the highest peak of Eastern Ghats in India thrice (1,680 m / 5,510 ft)</li>
+                        </ul>
+                        <div class="achievements-images">
+                            <img src="assets/tanmay3.jpg" loading="lazy" alt="Achievement 1" class="achievement-image">
+                            <img src="assets/trak2.jpg" loading="lazy" alt="Achievement 2" class="achievement-image">
+                            <img src="assets/tanmay2.jpg" loading="lazy" alt="Achievement 3" class="achievement-image">
+                        </div>
+                    </div>
+                </section>
+                <script src="static/script.js"></script>
+                </main>
+                
+                <footer class="footer">
+                    <p>Contact Information: sangam.d@northeastern.edu | +1 (617) 987-5458</p>
+                </footer>
+
+   

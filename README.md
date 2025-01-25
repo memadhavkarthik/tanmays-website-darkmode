@@ -1,2 +1,2 @@
-# tanmays-website-darkmode
-Modified version of Tanmays Website in dark mode
+# tanmays-html
+Hosted Tanmay's website on vercel using just html and css 
